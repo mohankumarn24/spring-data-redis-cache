@@ -15,7 +15,7 @@ import net.projectsync.redis.model.Product;
 public class ProductRepository {
 
 	private final Logger logger = LoggerFactory.getLogger(ProductRepository.class);
-    private static final String HASH_KEY = "Product";
+    private static final String HASH_KEY = "PRODUCT_REPO";
 
     @Autowired
     private RedisTemplate template;
